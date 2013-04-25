@@ -23,3 +23,21 @@ video {
   width: 100%;
   height: 100%;
 }
+
+/* line 22, ../../app/styles/main.scss */
+#camera-source {
+  position: absolute;
+  display: block;
+  top: 40px;
+  left: 40px;
+  z-index: 20000;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: #999;
+  border: 1px solid #ccc;
+}
+/* line 33, ../../app/styles/main.scss */
+#camera-source:hover {
+  background: white;
+}
